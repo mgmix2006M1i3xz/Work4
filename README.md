@@ -12,7 +12,8 @@ c — третий параметр кислотности почвы.
 3. Составить условие при помощи операторов if и else:
 4. Конец.
 Блок-схема:
-!(Диаграмма.png)
+<img width="973" height="581" alt="image" src="https://github.com/user-attachments/assets/6ef11ff4-65b3-45cb-99af-23a16275107b" />
+
 2. Реализация программы
 #include <locale.h>
 
