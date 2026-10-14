@@ -15,6 +15,7 @@ c — третий параметр кислотности почвы.
 <img width="973" height="581" alt="image" src="https://github.com/user-attachments/assets/6ef11ff4-65b3-45cb-99af-23a16275107b" />
 
 2. Реализация программы
+   
 #include <locale.h>
 
 int maintask4() {
@@ -22,12 +23,7 @@ int maintask4() {
 	int a, b, С;
 	puts("Введите значения а, b, с через пробел: ");
 	scanf_s("%d, %d, %d", &a, &b, &С);
-	if ((a % 3 == 0) && (b % 3 == 0) && (С % 3 == 0)) {
-		printf("Лунка идеальна для посадки!\n");
-	}
-	else {
-		printf("Лунка не идеальна.\n");
-	}
+	printf("Лунка идеальна для посадки!-1 не идеальная - 0: %d",(a % 3 == 0) && (b % 3 == 0) && (С % 3 == 0);
 
 	getchar();
 
